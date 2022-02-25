@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightpink;
+}
+nav{
+    background-color: #0cec57;
+    padding: 30px 50px;
+    padding-left: 200px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    padding: 0px;
+    display: inline-block;
+    padding-left: 40px;
+}
+nav>img{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1px;
+}
+nav a img{
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+nav a p{
+    width: 170px;
+    margin: 0px;
+}
+nav a:hover{
+    color: yellow;
+}
+nav form .bar{
+    height: 25px;
+    width: 300px;
+}
+nav form .button{
+    height: 30px;
+    background-color: transparent;
+    box-shadow: 0 0 1px white;
+    color: white;
+}
+nav form .button:hover{
+    box-shadow: 0 0 5px white;
+}
+.menu{
+    margin: 0px;
+    background-color:#5B3236;
+    margin-bottom: 20px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.menu li{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    
+}
+.menu ul ul li{
+    display: block;
+}
+.menu ul ul a{
+    float: left;
+    padding: 10px 0;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+footer{
+    background-image: url('image/bia.jpg');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    padding: 40px 150px;
+    clear: both;
+    overflow: hidden;
+}
+footer div{
+    float: left;
+    height: auto;
+    max-width: 400px;
+    margin: 0 70px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+footer a:hover{
+    color: yellow;
+}
+footer div>.anh{
+    padding: auto;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+footer li{
+    padding: 0px;
+}
+aside{
+    margin: 10px 20px;
+    margin-left: 50px;
+    float: left;
+    width: 350px;
+    box-shadow: 0 0 1px black;
+    height: 900px;
+}
+aside a{
+    clear: both;
+}
+aside img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 10px 20px;
+    margin-top: 0px;
+}
+aside a{
+    text-decoration: none;
+}
+aside p{
+    height: 100px;
+    margin:  0;
+    margin-bottom: 10px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article{
+    margin: 10px 20px;
+}
+article img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+article .t{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 165, 58);
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+}
+article p{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 20px;
+}

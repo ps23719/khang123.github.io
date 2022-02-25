@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\LAB1"
+		},
+		{
+			"path": "..\\LAB2"
+		},
+		{
+			"path": "..\\LAB3"
+		},
+		{
+			"path": "..\\LAB4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LAB3"
+	}
+}
